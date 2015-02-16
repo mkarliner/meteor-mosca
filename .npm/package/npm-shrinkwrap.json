@@ -1526,6 +1526,17 @@
           "version": "1.0.2"
         }
       }
+    },
+    "zmq": {
+      "version": "2.10.0",
+      "dependencies": {
+        "nan": {
+          "version": "1.5.3"
+        },
+        "bindings": {
+          "version": "1.1.1"
+        }
+      }
     }
   }
 }
