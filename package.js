@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mkarliner:mosca',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Mosca is a node.js MQTT broker',
   // URL to the Git repository containing the source code for this package.
