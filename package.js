@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mkarliner:mosca',
-  version: '0.0.4',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'Mosca is a node.js MQTT broker',
   // URL to the Git repository containing the source code for this package.
@@ -19,11 +19,11 @@ Npm.depends({
 Package.onUse(function(api) {
   api.export("mosca");
   api.versionsFrom('1.0.3.1');
-  api.addFiles('mkarliner:mosca.js', "server");
+  api.addFiles('mosca.js', "server");
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('mkarliner:mosca');
-  api.addFiles('mkarliner:mosca-tests.js');
+  api.addFiles('mosca-tests.js');
 });
